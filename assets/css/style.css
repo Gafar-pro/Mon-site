@@ -1,0 +1,63 @@
+*, ::before , ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+    
+}
+
+.mynav{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather' , serif;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.mynav .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out border-color 0.3s ease;
+}
+.mynav .nav-link:hover{
+    padding-bottom : 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.55) ,rgba(0, 0, 0, 0.55)) , url(../img/0023.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.banner .bndesc{
+    font-size:40px ;
+    font-weight: 400;
+    color: #fff;
+}
+
+.ccmenu{
+    background: linear-gradient(rgba(0, 0, 0, 0.55) ,rgba(0, 0, 0, 0.55)) , url(../img/bg009.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 1400px;
+}
+
+.ffooter{
+    background: linear-gradient(rgba(0, 0, 0, 0.55) ,rgba(0, 0, 0, 0.55)) , url(../img/0010.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 20px;
+
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
